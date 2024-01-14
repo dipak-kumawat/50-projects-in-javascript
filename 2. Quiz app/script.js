@@ -6,7 +6,7 @@ const question = [
             {text: "Blue Whale", correct: true},
             {text: "Elephant", correct: false},
             {text: "Giraffe", correct: false},
-        ]
+        ],
     },
     {
         question: "Where is the Shivneri Fort?",
@@ -15,7 +15,7 @@ const question = [
             {text: "Buldana", correct: false},
             {text: "Mumbai", correct: false},
             {text: "Nagpur", correct: false},
-        ]
+        ],
     },{
         question: "Which components are used in petrol to reduce to air pollution?",
         answers:[
@@ -23,7 +23,7 @@ const question = [
             {text: "Cyclic hydrocarbons", correct: false},
             {text: "Carbon Dioxide", correct: false},
             {text: "carbon monoxide", correct: true},
-        ]
+        ],
     },{
         question: "Pandit Ravi Shankar is related to ....",
         answers:[
@@ -31,7 +31,7 @@ const question = [
             {text: "Table", correct: false},
             {text: "Flute", correct: false},
             {text: "Sarod", correct: false},
-        ]
+        ],
     }
 ];
 
@@ -64,7 +64,7 @@ function showQuestion(){
 }
 
 function resetState(){
-    nextButton.style.display = "none;
+    nextButton.style.display = "none";
     while(answerButton.firstChild){
         answerButton.removeChild(answerButton.firstChild);
     }
