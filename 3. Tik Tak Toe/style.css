@@ -27,6 +27,7 @@ body {
 }
 
 .box {
+    cursor: pointer;
     height: 16vh;
     width: 16vh;
     border-radius: 1rem;
@@ -34,5 +35,15 @@ body {
     box-shadow: 0 0 1 rgba(0, 0, 0, 0.1);
     font-size: 8vmin;
     color: #b0413e;
+
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
     
 }
