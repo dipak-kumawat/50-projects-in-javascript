@@ -13,3 +13,13 @@ const winPatterns = [
     [3, 4, 5],
     [6, 7, 8],
 ];
+
+let num = 30;
+let userInput = prompt("enter your number");
+
+while(num != userInput){
+    userInput = prompt("Wrong Number ! enter again.");
+    console.log(userInput);
+}
+
+console.log("Congratulation! U entered a right number   ");
