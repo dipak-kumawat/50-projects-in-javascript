@@ -57,11 +57,13 @@ button:active {
     background-color: hsl(35, 100%, 55%);
 
 }
-.opertaor-btn:hover{
+
+.opertaor-btn:hover {
     background-color: hsl(35, 100%, 65%);
 
 }
-.opertaor-btn:active{
+
+.opertaor-btn:active {
     background-color: hsl(35, 100%, 75%);
 
 }
