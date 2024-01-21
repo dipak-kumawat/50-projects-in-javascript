@@ -1,4 +1,4 @@
-const display = document.getElementById("dispaly");
+const display = document.getElementById("dispaly").value;
 
 function appendToDispalay(input){
     display.value  += input;
@@ -9,7 +9,7 @@ function clearDisplay(){
 }
 
 function calculate(){
-    trya{
+    try{
         display.value = eval(display.value);
     }
     catch(error){

@@ -64,7 +64,7 @@ function showQuestion(){
 }
 
 function resetState(){
-    nextButton.style.display = "none";
+    // nextButton.style.display = "none";
     while(answerButton.firstChild){
         answerButton.removeChild(answerButton.firstChild);
     }
