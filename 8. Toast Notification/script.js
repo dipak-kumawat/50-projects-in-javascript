@@ -1,9 +1,16 @@
-const toastBox = document.getElementsByClassName('toastbox');
+const toastBox = document.querySelector('.toastbox');
 
 
-function showToast(){
+
+function showToast(message){
     const  toast = document.createElement('div');
     toast.classList.add('toast');
-    toast.innerHTML = "succeass";
+    toast.innerHTML = message;
     toastBox.appendChild(toast);
+    
+    setTimeout(() =>{
+        toast.remove();
+    }, 3000)
 }
+
+
