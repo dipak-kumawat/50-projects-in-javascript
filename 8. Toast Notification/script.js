@@ -9,16 +9,19 @@ function showToast(msg){
     toast.classList.add('toast');
     toast.innerHTML = msg;
     toastBox.appendChild(toast);
+
+
+    if(msg.includes('error')){
+        toast.classList.add('error');
+        document.toast.style.Color = 'orange';
+    }
+    if(msg.includes('invalid')){
+        toast.classList.add('invalid');
+    }
     
     setTimeout(() =>{
         toast.remove();
-    }, 3000)
+    }, 6000);
 }
-if(msg.includes('error')){
-    toast.classList.add('error');
-    document.toast.style.Color = 'orange';
-}
-if(msg.includes('invalid')){
-    toast.classList.add('invalid');
-}
+
 
