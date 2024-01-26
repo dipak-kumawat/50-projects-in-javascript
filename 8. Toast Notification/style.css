@@ -57,3 +57,10 @@ body{
     font-size: 35px;
     color: green;
 }
+
+.toast .error i{
+    color: red;
+}
+.toast .invalid i{
+    color: orange;
+}
