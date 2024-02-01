@@ -22,13 +22,13 @@
         <img src="./468-thumbnail.png" alt="song image" class="song-img">
         <h1>Zara Zara</h1>
         <p>Bombay Jayashree</p>
-        <audio src="./Zara-Zara-X-Cradle-Vaseegara(PaglaSongs).mp3" controls>
+        <audio id="song" src="./Zara-Zara-X-Cradle-Vaseegara(PaglaSongs).mp3" >
         </audio>
         <input type="range" value="0" name="" id="progress">
 
         <div class="control">
           <div><i class="fa-solid fa-backward"></i></div>
-          <div><i class="fa-solid fa-play"></i></div>
+          <div onclick="playPause()"><i class="fa-solid fa-play" id="control"></i></div>
           <div><i class="fa-solid fa-forward"></i></div>
         </div>
       </div>
