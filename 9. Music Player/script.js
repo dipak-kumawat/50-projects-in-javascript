@@ -17,7 +17,7 @@ function playPause(){
         song.play();
         ctrlIon.classList.remove("fa-play");
         ctrlIon.classList.add("fa-pause");
-    }
+    }  
 }
 
 if(song.play()){
