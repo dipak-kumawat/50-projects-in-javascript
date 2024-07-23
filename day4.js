@@ -1,85 +1,42 @@
-// write a program to check if a number is positive, negative, or zero and log the result to the console.
+// write a prgram to print numbers from  1 to 10 using a for loop.
 
-let number = -10;
-
-// if(number > 0)return console.log("number is positive")
-//     else if(number < 0)return console.log("number is negative")
-
-// write a program to check if a person is eligible to vote (age>= 18) and lot the result to the cosole.
-
-let age = 54;
-
-const message1 = age >= 18 ? "You are an adult" : "You are a minor";
-
-console.log(message1);
-// write a program to find the largest of three numbers using nested if-else statements.
-
-let num1 = 10;
-let num2 = 20;
-let num3 = 30;
-console.log(num1, num2, num3);
-
-// write a program that uses a switch casse to determine the day of the week based on a number (1 -7 ) and log the day name to the console..
-
-let day = 0;
-
-switch (day) {
-  case 1:
-    console.log("Monday");
-    break;
-  case 2:
-    console.log("Tuesday");
-    break;
-  case 3:
-    console.log("Wednesday");
-    break;
-  case 4:
-    console.log("Thursday");
-    break;
-  case 5:
-    console.log("Friday");
-    break;
-  case 6:
-    console.log("Saturday");
-    break;
-  case 7:
-    console.log("Sunday");
-    break;
-    default: console.log("enter valid day")
+for (i = 0; i <= 10; i++) {
+  console.log(i);
 }
 
-// write a program that uses a switch case to assign a grade ("a", b , c, d) based on a score and log the grade to the console.
-
-let score = 85; // You can change this value to test different scores
-let grade;
-
-switch (true) {
-    case (score >= 90 && score <= 100):
-        grade = "A";
-        break;
-    case (score >= 80 && score < 90):
-        grade = "B";
-        break;
-    case (score >= 70 && score < 80):
-        grade = "C";
-        break;
-    case (score >= 60 && score < 70):
-        grade = "D";
-        break;
-    case (score < 60):
-        grade = "F";
-        break;
-    default:
-        grade = "Invalid score";
+// write a program to print the multiplication table of 5 using a for loop.
+console.log("Table of 5 :");
+for (i = 0; i < 11; i++) {
+  console.log(i * 5);
 }
 
-console.log(`The grade is: ${grade}`);
+// write a program to calculate the sum of the numbers from 1 to 10 using a while loop..
+console.log("sum from 1 to 10 :");
+let sum = 0;
+let j = 0;
+while (j < 11) {
+  sum = sum + j;
+  j++;
+}
+console.log(`The sum of number from 1 to 10 :  ${sum} `);
 
+// write a program to print numbers from 1 to 5 using do ... while loop
 
-// write a prgoram that uses the ternary operator to check if a number is even or odd and log the result ot the console. 
+let ik = 1;
 
-let year = 2035
+do {
+  console.log(ik);
+  ik++;
+} while (ik <= 5);
 
-let leapYear = ( year % 2 === 0)? "this number is even": "this number is odd"
+//  write a program to calculate the factorial of a number using a do ... while loop
+let number = 5; // You can change this value to calculate the factorial of a different number
+let factorial = 1;
+let k = number;
 
-console.log(leapYear)
+do {
+  factorial *= k; // equivalent to factorial = factorial * i
+  k--;
+} while (k > 0);
+
+console.log(`The factorial of ${number} is ${factorial}`);
