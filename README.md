@@ -2,7 +2,7 @@
 
 Welcome to the "50 Day 50 Projects in JavaScript" challenge! This repository contains a collection of small projects developed over 50 days, each showcasing various aspects of JavaScript, HTML, and CSS.
 
-## Project List
+## Project List 
  
 1. **Project 1: [Project Name]**
    - Description: [Brief description of the project]
